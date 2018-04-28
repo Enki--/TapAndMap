@@ -1,0 +1,17 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+
+     {
+        "type": "Feature",
+        "geometry": {
+           "type": "LineString",
+           "coordinates": [[-104.000000, 38.000000],[-104.000000, 38.000000]]
+           },
+        "properties": {
+           "description":  "This last line is just a placeholder",
+           "color": "blue"
+            }
+        } 
+   ]
+}
