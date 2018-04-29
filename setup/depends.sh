@@ -23,6 +23,7 @@ if [[ $OSTYPE == "linux-gnu" ]]; then
 
   echo "[*] Downloading geolite data..."
   wget http://geolite.maxmind.com/download/geoip/database/GeoLiteCity.dat.gz
+  gzip -d GeoLiteCity.dat.gz
   mkdir /usr/local/share/GeoIP/
   mv GeoLiteCity.dat /usr/local/share/GeoIP/
 
