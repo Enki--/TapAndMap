@@ -23,3 +23,5 @@ if [[ $OSTYPE == "linux-gnu" ]]; then
 
   echo ""
   echo "[*] Setup Completed."
+  
+fi
