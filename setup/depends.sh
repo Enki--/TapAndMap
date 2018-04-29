@@ -21,7 +21,12 @@ if [[ $OSTYPE == "linux-gnu" ]]; then
   echo "[*] Installing python libs..."
   sh "$current_path/python3-depends.sh"
 
+  echo "[*] Downloading geolite data..."
+  wget http://geolite.maxmind.com/download/geoip/database/GeoLiteCity.dat.gz
+  mkdir /usr/local/share/GeoIP/
+  mv GeoLiteCity.dat /usr/local/share/GeoIP/
+
   echo ""
   echo "[*] Setup Completed."
-  
+
 fi
