@@ -14,13 +14,9 @@ html { height: 100% }
 body { height: 100%; margin: 0; padding: 0 }
   #map_canvas { height: 100% }
 
-<script>
-   window.APIKEY = '{{ env('API_key') }}';
-</script>
-
 </style>
-
-<script src="http://maps.googleapis.com/maps/api/js?key=${APIKEY}&libraries=geometry"></script>
+//you need to add your own APIKEY below
+<script src="http://maps.googleapis.com/maps/api/js?key=APIKEY&libraries=geometry"></script>
 
 <script>
 //var myCenter=new google.maps.LatLng(28.508742,-70.120850);
