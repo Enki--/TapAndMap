@@ -113,6 +113,7 @@ venv.bak/
 [Ll]ib
 [Ll]ib64
 [Ll]ocal
+[Ss]hare
 [Ss]cripts
 pyvenv.cfg
 .venv
