@@ -1,1 +1,8 @@
+# python
 pip install flask-googlemaps
+pip install redis
+pip instal flask
+pip install scapy
+
+# system
+redis
