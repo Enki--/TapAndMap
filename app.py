@@ -11,8 +11,8 @@ from flask import Flask, render_template, Response
 app = Flask(__name__, template_folder="templates")
 
 # you can set key as config
-app.config['GOOGLEMAPS_KEY'] = "Add Key"
-GoogleMaps(app, key="Add Key")
+app.config['GOOGLEMAPS_KEY'] = ""
+GoogleMaps(app, key="")
 
 config = configparser.ConfigParser()
 config.read('TapAndMap.conf')

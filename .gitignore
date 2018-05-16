@@ -4,6 +4,7 @@ app-env
 # mine
 googleapikey
 GeoLite2-City.mmdb
+.DS_Store
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
