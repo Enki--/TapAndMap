@@ -36,6 +36,7 @@ if [[ $OSTYPE == "linux-gnu" ]]; then
   apt-get -qq -y install python3-pip
 
   echo "[*] Installing python libs..."
+  pip3 install --upgrade pip
   pip3 install flask-googlemaps --upgrade
   pip3 install redis --upgrade
   pip3 instal flask --upgrade
