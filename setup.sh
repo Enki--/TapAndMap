@@ -25,15 +25,15 @@ if [[ $OSTYPE == "linux-gnu" ]]; then
   echo -e "\t#########################"
 
   echo "[*] Installing redis"
-  apt update "$SKIP"
-  apt full-upgrade "$SKIP"
-  apt install redis-server "$SKIP"
+  apt-get -qq"$SKIP" update
+  apt-get -qq"$SKIP" full-upgrade
+  apt-get -qq"$SKIP" install redis-server
 
   echo "[*] Installing python3..."
-  apt-get install python3 "$SKIP"
+  apt-get -qq"$SKIP" install python3
 
   echo "[*] Installing pip3..."
-  apt-get install python3-pip "$SKIP"
+  apt-get -qq"$SKIP" install python3-pip
 
   echo "[*] Installing python libs..."
   pip install flask-googlemaps --upgrade
