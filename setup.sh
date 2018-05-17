@@ -36,11 +36,11 @@ if [[ $OSTYPE == "linux-gnu" ]]; then
   apt-get -qq -y install python3-pip
 
   echo "[*] Installing python libs..."
-  pip install flask-googlemaps --upgrade
-  pip install redis --upgrade
-  pip instal flask --upgrade
-  pip install scapy --upgrade
-  pip install configparser --upgrade
+  pip3 install flask-googlemaps --upgrade
+  pip3 install redis --upgrade
+  pip3 instal flask --upgrade
+  pip3 install scapy --upgrade
+  pip3 install configparser --upgrade
 
   echo ""
   echo "[*] Setup Completed."
